@@ -35,4 +35,5 @@ yarn-error.log*
 .npmignore
 .serverless/
 .serverless_nextjs/
+next-env.d.ts
 todo.js
