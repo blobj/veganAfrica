@@ -6,7 +6,6 @@ import {Box, Typography, Grid, Divider, IconButton} from '@material-ui/core'
 import CloseIcon from '@material-ui/icons/Close';
 import { makeStyles } from '@material-ui/core/styles';
 import CryptoButton from '../components/CryptoButton';
-import {buttons} from '../store/buttons';
 import database from '../firebase/firebase';
 
 require('dotenv').config()

@@ -4,10 +4,11 @@ import Link from 'next/link';
 import Head from 'next/head';
 import DeforestationChart from '../components/DeforestationChart';
 import PopulationPredictions from '../components/PopulationPredictions';
-import FundsPie from '../components/FundsPie';
 import TokenPie from '../components/TokenPie';
 import OperationPie from '../components/OperationPie';
 import TokenReleaseStep from '../components/TokenReleaseStep';
+import D3FundsPie from '../components/D3FundsPie';
+
 const useStyles = makeStyles(theme => ({
     firstPaper: {
         width: "90%",
@@ -21,7 +22,7 @@ const useStyles = makeStyles(theme => ({
     },
     paper: {
         width: "90%",
-        maxWidth: "90vh",
+        maxWidth: "120vh",
         margin: "1.5rem auto",
         padding: "6rem",
         [theme.breakpoints.down('xs')] : {
@@ -177,7 +178,7 @@ const WhitePaper = () => {
                 <p>Vegan AF invests in plant-based African companies. The purchase of VAF tokens provides critical expansion and start-up capital to vegan and sustainable businesses in Africa. We're operating as a social enterprise and creating a circular vegan economy to benefit society, the environment, and improve how people do business. Vegan AF is for conscious profit, where emphasis is on making and empowering more vegans and scaling vegan ventures, not a business centered on solely profits.</p>
                 <p>All profits, from token sales or from the result of the ventures we partner with profiting, cycle into the vegan AF funds pool. This allows us to build a sustainable circular economy instead of relying solely on token sales to support our efforts.</p>
                 <Box display="flex" justifyContent="center">
-                   <FundsPie />
+                   <D3FundsPie />
                 </Box>
                 <h4 className={classes.caption}>Vegan AF Funds Distribution</h4>
                 <h4 className={classes.footer}>4</h4>
