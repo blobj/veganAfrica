@@ -9,6 +9,7 @@ import OperationPie from '../components/OperationPie';
 import TokenReleaseStep from '../components/TokenReleaseStep';
 import D3FundsPie from '../components/D3FundsPie';
 import TokenDistributionChart from '../components/TokenDistributionChart';
+import OperationsChart from '../components/OperationsChart';
 
 const useStyles = makeStyles(theme => ({
     firstPaper: {
@@ -307,7 +308,7 @@ const WhitePaper = () => {
                 The Partnership and Strategic Acquisitions Fund makes up the largest portion of the funds allocated from VAF sales. The fund includes support for high-growth operations as well as projects Vegan AF believes we can turn into high-growth operations.
             </p>
             <Box display="flex" justifyContent="center">
-                <img alt="whitepaper" className={classes.imageDimensions} src="/images/whitepaper_8.png" />
+               <OperationsChart />
             </Box>
             <Box display="flex" justifyContent="center">
                 <img alt="whitepaper" className={classes.imageDimensions} src="/images/whitepaper_9.png" />
