@@ -8,6 +8,7 @@ import TokenPie from '../components/TokenPie';
 import OperationPie from '../components/OperationPie';
 import TokenReleaseStep from '../components/TokenReleaseStep';
 import D3FundsPie from '../components/D3FundsPie';
+import TokenDistributionChart from '../components/TokenDistributionChart';
 
 const useStyles = makeStyles(theme => ({
     firstPaper: {
@@ -22,7 +23,7 @@ const useStyles = makeStyles(theme => ({
     },
     paper: {
         width: "90%",
-        maxWidth: "120vh",
+        maxWidth: "150vh",
         margin: "1.5rem auto",
         padding: "6rem",
         [theme.breakpoints.down('xs')] : {
@@ -255,7 +256,7 @@ const WhitePaper = () => {
             <h2>TOKEN DISTRIBUTION</h2>
             <p>The schedule of unlocking dates for each of these sections outlined in the Roadmap below.</p>
             <Box display="flex" justifyContent="center">
-                    <img alt="whitepaper" className={classes.imageDimensions} src="/images/whitepaper_6.jpg" />
+                <TokenDistributionChart />
             </Box>
             <h4 className={classes.caption}>Roadmap for Token Distribution</h4>
             <h4 className={classes.footer}>7</h4>

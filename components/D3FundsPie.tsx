@@ -6,11 +6,6 @@ import { fundsDistribution } from '../store/whitepaper';
 
 
 const useStyles = makeStyles(() => ({
-    g: {
-        display: "flex",
-        width: "120px"
-    },
-
     box: {
         width: "100%",
         height: "auto"
