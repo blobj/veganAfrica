@@ -409,21 +409,21 @@ Investing in the VAF token is supporting the vegan future in Africa. As Vegan AF
         Get In Touch
     </Button>
     <SimpleDialog selectedValue={selectedValue} open={open} onClose={handleClose} />
+    <img alt="vegan" className={classes.footlogo} src="/images/veganTextLogo.png" />
 
 
         </Paper>
 
 
 
-          <Paper className={classes.paper}>
+{/*          <Paper className={classes.paper}>
 
           <h3>DONATING TO VEGAN AF</h3>
           <p>The Vegan AF team began accepting donations in April 2021 and will continue to accept donations to enhance fund operations and capabilities. Donations may be made by those who are interested in seeing the Vegan AF mission succeed but are not interested in being token holders, token holders who want to increase their support for Vegan AF, or by those who cannot purchase VAF tokens. We appreciate all donations and your amazing support of Vegan AF. We are excited to change the world with you. </p>
               <Link  href="/donate"><Button className={styles.button}>DONATE</Button></Link>
-              <img alt="vegan" className={classes.footlogo} src="/images/veganTextLogo.png" />
 
 
-            </Paper>
+            </Paper>*/}
 
 
         </section>
