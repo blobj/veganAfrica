@@ -200,14 +200,14 @@ const WhitePaper = () => {
               <Paper className={classes.paper}>
               <h3>INTRODUCTION</h3>
               <p>
-                The greatest positive impact will come from massive societal shifts towards sustainability. Adopting a plant-based diet is the most impactful action an individual can take to
-                fight climate change <span className={classes.span}><a href="https://www.ipcc.ch/site/assets/uploads/sites/2/2019/06/SR15_Full_Report_High_Res.pdf">(IPCC)</a></span>. Veganism
+                The greatest positive impact will come from massive societal shifts towards regeneration. Adopting a plant-based diet is the most impactful action an individual can take to fight climate
+                change <span className={classes.span}><a href="https://www.ipcc.ch/site/assets/uploads/sites/2/2019/06/SR15_Full_Report_High_Res.pdf">(IPCC)</a></span>. Veganism
                 promotes wellness for the planet and the individual,
                 and a focus on veganism in Africa is critical during this growth
                 period. The population of Africa is projected to nearly quadruple
                 from 1.2 billion people today to over 4 billion in the next
                 century <span className={classes.span}><a href="https://www.worldbank.org/en/region/afr/overview">(World Bank)</a></span>.
-                That's a lot more people to feed; in fact, Africa is the fastest-growing continent. How food production increases to meet growing needs must be rooted in regeneration instead of destruction, and especially through local value-added production and food forests to regenerate the earth and retain green-cover.
+                That's a lot more people to feed; in fact, Africa is the fastest-growing continent. How food production increases to meet growing needs must be rooted in regeneration instead of destruction, and especially through food forests to regenerate the earth and local value-added production.
               </p>
 
               <Box display="flex" justifyContent="center">
@@ -258,13 +258,12 @@ const WhitePaper = () => {
                 />.
                 </p>
                 <p>
-                It is possible for Africa to become a net-exporter of food products, but can only happen through value-added processing
+                The Vegan Africa Fund enables the future where Africa becomes a net-exporter of plant-based food products and vegan luxury items and leader in regenerative systems. Vegan AF grows wealth on the continent, especially through local value-added processing and strategic resource management
                 <Reference
                   url={"https://www.tralac.org/documents/publications/trade-data-analysis/962-africa-food-trade-overview-september-2017/file.html"}
                   label={"Tralac"}
                 />
-                . Vegan AF supports scaling vegan businesses to add value to vegan products closer to where the products are grown. Vegan AF is filling the gap between impact investing in Africa and vegan-centric impact investing, supporting the growing vegan network and a plant-based economy in Africa.
-
+                . Through regenerative processes, outputs can increase while measurable impacts like number of plant-based individuals, the Vegan AF network usage, and carbon sequestration can be optimized. Vegan AF supports businesses adding value to plant-based resources close to where the resources are grown, and selling these on both a local and international scale. Vegan AF is filling the gap between impact investing in Africa and plant-based impact investing, supporting the growing vegan network and a plant-based economy in Africa.
                 </p>
                 <h4 className={classes.footer}>{page++}</h4>
               </Paper>
@@ -337,12 +336,12 @@ const WhitePaper = () => {
                 </Box>
                 <dl>
                     <dt className={classes.dt}>
-                        <p>Presale:</p>
+                        <p>Seed sale:</p>
                     </dt>
                     <dd className={classes.dd}>
                         <Box display="flex">
                             <p>-</p>
-                            <p>Tokens sold to early partners before sales to the public, 5% of total supply</p>
+                            <p>VAFs sold to strategic early partners before public sale on exchanges. These are sold at a discount, and cannot be liquidated until phase 3 of operations. 5% of total supply</p>
                         </Box>
                     </dd>
                     <dt className={classes.dt}>
@@ -351,7 +350,7 @@ const WhitePaper = () => {
                     <dd className={classes.dd}>
                         <Box display="flex">
                             <p>-</p>
-                            <p>Public sale tokens are unlocked in phases and sold as fundraising for Vegan AF scales to enhance fund operations, 80% of total supply</p>
+                            <p>Public sale VAFs are unlocked in phases and sold to raise funds for Vegan AF to scale and expand fund operations, 80% of total supply</p>
                         </Box>
                     </dd>
                     <dt className={classes.dt}>
@@ -410,7 +409,7 @@ The token release schedule involves minting 1 trillion VAF tokens during the net
 
             <Paper className={classes.paper}>
 
-            <h3>JOINING VEGAN AF</h3><p>
+            <h3>INVEST IN VEGAN AF</h3><p>
 Investing in the VAF token is supporting the vegan future in Africa. As Vegan AF expands, we seek to work with aligned investors and partners who can co-create a healthy, abundant, compassionate, equitable vegan future in Africa. Click the below button to get involved today.
 </p><br/>
     <Button variant="contained" className={styles.button} onClick={handleClickOpen}>
