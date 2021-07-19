@@ -55,7 +55,7 @@ const useStyles = makeStyles(theme => ({
 
         <Box
         className = {classes.page}>
-        <h1>Due to international regulations we need to verify some information before you can participate in the pre-sale.</h1>
+        <h1>Due to international regulations we need to verify some information before you can participate in the seed sale.</h1>
         <Box mx="auto" display="flex">
             <Button variant="contained" className={classes.dialogBtn} onClick={handleClickOpen}>
                 Get In Touch

@@ -162,7 +162,7 @@ const WhitePaper = () => {
         <section className={classes.section}>
             <Paper className={classes.firstPaper}>
                 <Box  display="flex" justifyContent="center">
-                <img alt="whitepaper" className={classes.topImage} src="/images/whitepaper.png" />
+                <img alt="whitepaper" className={classes.topImage} src="/images/vaf-cover.svg" />
                 </Box>
             </Paper>
 
@@ -170,11 +170,11 @@ const WhitePaper = () => {
             <Paper className={classes.paper}>
                 <h3>EXECUTIVE SUMMARY</h3>
                 <p>
-                The Vegan Africa Fund is an impact fund supporting a vegan future in Africa. There are many exciting African-based vegan ventures, and a growing consumer interest in quality vegan products. However, existing ventures lack expansion capital, and have competition from imported vegan products from Australia, Europe, Asia, and further away. Vegan AF raises capital to support a decentralized network of vegan ventures and scale their efforts. In exchange for capital support, Vegan AF holds equity in the companies we support. As partnered operations grow, the Vegan AF network grows, and Vegan AF’s portfolio value grows. Our network is enabled through the VAF impact token, an investment cryptocurrency that represents holding a stake in the vegan future of Africa.
+                The Vegan Africa Fund empowers community-driven ventures supporting a plant-based and regenerative Africa. Vegan AF enables global futurists to uplift Africa through the VAF impact token. There are many thousands of African-based eco-entrepreneurs, and a growing consumer interest in quality vegan products. However, existing ventures lack capital, and have competition from globally imported vegan products. Vegan AF pools capital to support the pan-African plant-based network and scale ventures, providing expansion opportunities. In exchange for capital support, Vegan AF holds equity in partnered ventures which work to have a measurable impact. As partnered operations grow, the Vegan AF network grows. The network is powered by VAF, a financial security that represents holding a stake in Vegan AF, and a stake in the plant-based future of Africa. Our mission is to make plant-based options plentiful, delicious, locally produced, and regenerative, while making the plant-based evolution accessible to the fastest-growing continent on Earth.
                  </p>
                 <h3>TOKEN ECONOMICS SUMMARY</h3>
                 <p>
-                VAF is the native token of the Vegan AF network, and is an impact token enabling co-operation of vegan individuals and ventures through the VAF token economy. Impact investors, by purchasing VAFs, allow Vegan AF to strategically acquire, hold, assist, and form companies aligned with our mission. For every 10 VAFs purchased, 1 VAF will be distributed through the Community Development Fund or as part of the Vegan AF rewards program. As the Vegan AF network expands, VAF tokens can be redeemed for products, services, experiences and delicious vegan food from partnered operations. The VAF token provides proof of impact, where the token usage can be tied to sustainable operations and our increasing share in the growing value of the vegan economy. VAF tokens will grow in value as Vegan AF’s portfolio grows and market cap increases. Our mission is to make plant-based options plentiful, delicious, local, and sustainable, while making the plant-based evolution accessible to the fastest-growing continent on Earth.
+                VAF is the Vegan Africa Fund’s impact token. Stewards of the network invest in VAF, enabling Vegan AF to strategically acquire, hold, assist, and form companies aligned with our mission. Vegan AF enables regenerative actors in the Vegan AF network to be stakeholders through the Community Development Fund. As the Vegan AF network expands, VAFs can be redeemed for products, services, experiences and vegan food from partnered operations. After the first phases of operations, early investors will be able to import plant-based products from Africa to countries around the world using VAFs. The ventures we partner with accept VAFs, and are encouraged to buy back equity in their companies and engage with the broader Vegan AF network with VAFs. VAF usage can be tied to regenerative operations, number of plant-based meals and consumers, number of vegans in Africa, and the Vegan Africa Fund’s share in the growing value of the African vegan economy.
                 </p>
                 <Box display="flex" justifyContent="center">
                 <img alt="whitepaper" className={classes.imageDimensions} src="/images/whitepaper_2.png" />
@@ -272,26 +272,31 @@ const WhitePaper = () => {
             <Paper className={classes.paper}>
               <h3>OPERATIONS STRATEGY</h3>
               <p>
-              As the vegan economy grows in Africa, Vegan AF aims to be at the forefront. Funds raised through VAF sales will go towards the following activities: Strategic Acquisitions, Development of Shared Resources, Social Impact Initiatives, Operations, Marketing and Legal. Vegan AF will acquire equity in the ventures we invest in, making up the Vegan AF portfolio.               </p>
+              As the vegan economy grows in Africa, Vegan AF aims to be at the forefront. Vegan AF is fundraising to support the plant-based evolution. Funds raised will go towards the following activities: Strategic Acquisitions, Social Impact Initiatives, Development of Shared Resources, Operations, Marketing and Legal. Vegan AF will acquire equity in the ventures we invest in, making up the Vegan AF portfolio.
+              </p>
               <Box display="flex" justifyContent="center">
                  <OperationPie />
               </Box>
               <h4 className={classes.caption}>Vegan AF Funds Distribution</h4>
 
               <p>
-              The Partnerships and Strategic Acquisitions Fund consists of 75% of all funds from VAF sales. The fund supports high-growth-potential operations which are focused on taking animals out of the supply-chain. With time, Vegan AF seeks to acquire convertible equity in an ever-growing number of ventures to keep our portfolio diversified. Equity buyback funds will go back into the Vegan AF funds pool to support further investments in Vegan AF ventures.
+              The Partnerships and Strategic Acquisitions Fund consists of 75% of the Vegan Africa Fund. The fund supports high-growth-potential operations which are regenerative and either plant-based in nature or founded by plant-based entrepreneurs. This includes ventures such as vegan protein and packaged food production, plant-based restaurants, organic and veganic agriculture, reforestation and food forests, production of plant-based leather and materials alternatives, renewable energy, sustainable clothing, and innovative technologies. Through each phase, Vegan AF seeks to acquire equity in a growing number of ventures to diversify our portfolio, encouraging ventures to buy back equity as they grow and profit. Equity buyback funds will go back into the Vegan AF funds pool to support further investments in Vegan AF ventures.
               </p>
-              <p>
-              The Social Impact Fund consists of 10% of all Vegan AF funds, as we are committed to increasing our social impact during every phase of our operations. Projects that we support are not-for-profit initiatives including vegan meal distribution programs, animal sanctuaries, environmental restoration, and tree-planting initiatives.
-              </p>
+
+              <h4 className={classes.footer}>{page++}</h4>
             </Paper>
 
             <Paper className={classes.paper}>
               <h3>OPERATIONS STRATEGY</h3>
-              <p>The Resources Fund receives 5% of all funds, and supports the development of shared resources for the Vegan AF network. The first of these resources includes technical resources such as the VAF wallet and POS system to enable all of the ventures we partner with to support VAF payments. Vegan AF also will develop physical resources, including a decentralized network of VFarms which focus on regenerative agriculture and reforestation. Additional resources we are interested in developing include VFactory, a decentralized network of co-factory spaces, VKitchen, a network of cloud kitchen production spaces, and VStore, a network of storefronts selling 100% vegan products.
+              <p>
+              The Social Impact Fund consists of 10% of the Vegan Africa Fund, as we are committed to increasing our social impact during every phase of our operations. Projects that we support for social impact include vegan meal distribution programs, animal advocacy and sanctuary initiatives, environmental restoration, research programs, ocean and beach clean-ups, and tree-planting initiatives.
               </p>
-              <p>The Vegan AF Operations budget is 5% of the total fund. Operations include overhead costs for web and digital services, renting a physical location, and salaries for Vegan AF team members, where the team should expand to fit the budget as the network grows and as fundraising rounds are successful. The marketing budget is 2.5% of the total fund. This includes advertising for the ventures we support and for Vegan AF, sponsoring vegan sports teams or events like VegFest, and outsourcing marketing expertise to help grow the Vegan AF brand and network. The remaining 2.5% of the fund is reserved for Legal fees, to make sure our operations are compliant, that we have all appropriate permits, and to help form contracts with partnered parties. </p>
-
+              <p>
+              The Resources Fund is 5% of the Vegan Africa Fund, and supports the development of shared resources for the Vegan AF network. The first of these resources includes technical resources such as the VAF wallet and point-of-sale system to enable the ventures we partner with to support VAF payments. Just as the VAF is a tokenized share of the Vegan AF network, if desired, we will help create tokenized shares for each venture we partner with, and by phase 5 of the Vegan Africa Fund operations, we will create an index of sustainable assets in Africa that represents the Vegan AF portfolio of aligned, sustainable companies.
+              </p>
+              <p>
+              The Vegan AF Operations budget is 5% of the total fund. Operations include overhead costs for web and digital services, subscription services, contract work, blockchain development services, and salaries for Vegan AF team members, where the team shall expand to fit the budget as the network grows and as fundraising rounds are successful. The marketing budget is 2.5% of the total fund. This includes advertising for the Vegan Africa Fund to enhance the Vegan AF visibility and grow the investor network, sponsoring vegan sports teams or events like VegFest, and outsourcing marketing expertise to help grow the Vegan AF network. The remaining 2.5% of the fund is reserved for Legal fees, to make sure our operations are compliant, that we have all appropriate permits, and to form and file deeds with partnered parties.
+              </p>
               <h4 className={classes.footer}>{page++}</h4>
             </Paper>
 
@@ -304,17 +309,20 @@ const WhitePaper = () => {
 
               <Paper className={classes.paper}>
                   <h3>TOKEN ECONOMICS</h3>
-                  <p>VAF is the capped supply impact token of the Vegan AF network. VAF tokens are created during the network’s genesis transaction, at a fixed amount of 1 trillion VAF. Following the network’s inception, there are no mining activities associated with the Vegan AF network. Vegan AF is committed to operating carbon net-negative, which is why we chose to use the energy efficient Fantom Opera blockchain, one of the most eco-friendly networks on the planet
+                  <p>
+                  VAF is the capped supply impact token of the Vegan AF network. VAFs are created during the network’s genesis transaction, at a fixed amount of 1 trillion VAF. Following the network’s inception, there are no mining activities associated with the Vegan AF network, which keeps the energy usage low. Vegan AF is committed to operating carbon net-negative, which is why we chose to use the energy efficient Fantom Opera blockchain, one of the most eco-friendly networks that exists
                   <Reference
                     url={"https://twitter.com/FantomFDN/status/1395089021144023043?s=20"}
                     label={"Fantom"}
                   />.
                   </p>
-                  <p>Vegan AF invests in plant-based African companies, enabled by impact investors purchasing VAFs. The purchase of VAFs provides critical expansion and start-up capital to vegan and sustainable ventures. In exchange for a capital investment from Vegan AF, the ventures we partner with agree to accept VAF tokens as currency in their operations. As the network grows, the available locations where VAF holders will be able to redeem their VAFs grows. As we build the network and ecosystem, VAFs grow in value.
+                  <p>Vegan AF invests in plant-based and regenerative African companies, supported by the stewardship network. The global network of impact investors holding VAFs provides critical expansion and start-up capital to aligned ventures across Africa. In exchange for capital from Vegan AF, the ventures we partner with agree to accept VAFs as currency in their operations. As the network grows, the available locations where VAF holders can redeem VAFs grows.
                   </p>
-                  <p>When Vegan AF receives a return on investments, or when tokens are sold, funds cycle into the vegan AF funds pool. Vegan AF plans to grow its market cap not just through investor funding but through value creation in the plant-based goods market. This strategy allows us to build a sustainable circular economy instead of relying solely on token sales to support our efforts.
+                  <p>
+                  Vegan AF partners agree to accept VAFs from their customers once the VAF Wallet or appropriate integrations are developed. VAFs can be traded with participants in the Vegan AF network, where products offered may be food products, vegan leather and other materials, sustainably-produced products and services, and more. For companies Vegan AF supports, a portion of equity buy-backs will be encouraged in VAF. Vegan AF will incentivize engagement in veganism through VAF distribution at educational events, through digital platforms, and to businesses or individuals we partner with as part of the Community Development Fund.  This model will increase the VAF network usage, allowing the Vegan AF network to grow.
                   </p>
-                  <p>Every venture we support agrees to accept VAFs from their customers once the VAF Wallet or appropriate integrations are developed. VAF tokens can be used to trade with participants in the Vegan AF network, where products offered are not necessarily food products but also sustainably-produced products and services. For companies Vegan AF supports, a portion of equity buy-backs will be allowed through paying Vegan AF back in VAF. Vegan AF will incentivize engagement in veganism through VAF distribution at educational events, through digital platforms, and to businesses or individuals we partner with as part of the Community Development Fund.  This model will increase the VAF network usage, allowing Vegan AF and the VAF token value to grow.
+                  <p>
+                  When Vegan AF receives a return on investments, or when VAFs are sold, funds cycle into the Vegan AF funds pool. Vegan AF shall grow its market cap through investor funding and through value creation in the plant-based goods and services markets. This strategy allows us to build a circular renewable economy instead of relying solely on VAF sales to support our efforts.
                   </p>
 
 
@@ -387,9 +395,9 @@ const WhitePaper = () => {
 
 
             <Paper className={classes.paper}>
-                <h3>TOKEN UNLOCKING</h3>
+                <h3>ROADMAP & TOKEN RELEASE SCHEDULE</h3>
                 <p>
-                    The token release schedule involves minting 1 trillion VAF tokens during the network’s genesis transaction. These will immediately be divided into 5 separate holding wallets respective to the 5 functions: presale, public sale, liquidity, development team, and community development fund. The tokens will be unlocked given the below schedule, where at the time of unlocking they are available for sale (presale, public sale and liquidity) or allocated to the team or community.
+The token release schedule involves minting 1 trillion VAF tokens during the network’s genesis transaction. These will be divided into 5 separate holding wallets respective to the 5 functions: seed sale, public sale, liquidity, development team, and community development fund. VAFs will be unlocked given the below schedule, where at the time of unlocking they are sold (seed sale, public sale and liquidity) or allocated to the team or community.
                 </p>
                 <Box display="flex" justifyContent="center">
                    <TokenReleaseStep />
@@ -415,15 +423,6 @@ Investing in the VAF token is supporting the vegan future in Africa. As Vegan AF
         </Paper>
 
 
-
-{/*          <Paper className={classes.paper}>
-
-          <h3>DONATING TO VEGAN AF</h3>
-          <p>The Vegan AF team began accepting donations in April 2021 and will continue to accept donations to enhance fund operations and capabilities. Donations may be made by those who are interested in seeing the Vegan AF mission succeed but are not interested in being token holders, token holders who want to increase their support for Vegan AF, or by those who cannot purchase VAF tokens. We appreciate all donations and your amazing support of Vegan AF. We are excited to change the world with you. </p>
-              <Link  href="/donate"><Button className={styles.button}>DONATE</Button></Link>
-
-
-            </Paper>*/}
 
 
         </section>
