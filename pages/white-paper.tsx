@@ -1,7 +1,7 @@
 import React from 'react';
 import {Paper, Box, Button} from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
-import Link from 'next/link';
+// import Link from 'next/link';
 import Head from 'next/head';
 import DeforestationChart from '../components/DeforestationChart';
 import PopulationPredictions from '../components/PopulationPredictions';
